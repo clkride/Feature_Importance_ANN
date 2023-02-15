@@ -15,6 +15,7 @@ How to find key drivers that influence output of an Artificial Neural Network
 ## Table of Contents
 - [About the Data Set](#about-data-set)
 - [Project Description](#project-description)
+- [Exploratory Analysis of Dataset](#exploratory-analysis-of-dataset)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -31,6 +32,10 @@ How to find key drivers that influence output of an Artificial Neural Network
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Exploratory Analysis of Dataset
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
