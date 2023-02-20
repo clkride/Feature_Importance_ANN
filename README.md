@@ -13,12 +13,16 @@
 How to find key drivers that influence output of an Artificial Neural Network
 
 ## Table of Contents
-- [About the Data Set](#about-data-set)
 - [Project Description](#project-description)
+- [About the Data Set](#about-data-set)
 - [Exploratory Analysis of Dataset](#exploratory-analysis-of-dataset)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Project Description
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## About Data Set
 
@@ -28,10 +32,6 @@ How to find key drivers that influence output of an Artificial Neural Network
   S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems (2014),doi:10.1016/j.dss.2014.03.001.
  
  * All records are ordered by date (from May 2008 to November 2010). Detailed Description can be found @ [Data_Dictionary.md](https://github.com/clkride/Feature_Importance_ANN/blob/main/Data%20Set%20Description/Data_Dictionary.md).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Project Description
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
