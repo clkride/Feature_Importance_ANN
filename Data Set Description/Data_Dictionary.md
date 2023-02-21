@@ -9,7 +9,7 @@ This dataset is based on "[Bank Marketing](http://archive.ics.uci.edu/ml/dataset
 ### Input variables:
 | Tables        | Description | Datatype   |  Values   |
 | ------------- |-------------|------------|-----------|
-| age           |             | numeric    |           |
+| age           |             | numeric    |    [17 to 98]|
 | job           | type of job | categorical|{"admin.","bluecollar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown"}|
 | marital |  marital status     |   categorical | {"divorced","married","single","unknown"}; note: "divorced" means divorced or widowed |
 | education | level of education | categorical | {"basic.4y","basic.6y","basic.9y","high.school","illiterate","professional.course","university.degree","unknown"}|
@@ -19,7 +19,7 @@ This dataset is based on "[Bank Marketing](http://archive.ics.uci.edu/ml/dataset
 |contact|contact communication type with the last contact of the current campaign|categorical|{"cellular","telephone"}|
 |month|last contact month of year|categorical|{"jan", "feb", "mar", ..., "nov", "dec"}|
 |day_of_week|last contact day of the week|categorical|{"mon","tue","wed","thu","fri"}|
-|duration|last contact duration, in seconds|numeric|Important note:  this attribute highly affects the output target (e.g., if duration=0 then y="no"). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.|
+|duration|last contact duration, in seconds|numeric|[0 to 4918]|
 |campaign|number of contacts performed during this campaign and for this client|numeric|[1 to 56]|
 |pdays|number of days that passed by after the client was last contacted from a previous campaign|numeric|999 means client was not previously contacted|
 |previous|number of contacts performed before this campaign and for this client|numeric|0,1,2,3,4,5,6,7|
