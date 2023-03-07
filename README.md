@@ -49,7 +49,7 @@ In this phase, I have tried to resolve common data challenges faced such as poor
 8.	If the outcome of previous campaign was a success then the propensity of that client to subscribe the term deposit is fairly high.
 9.	Subscription declines steeply when the duration of call ends close to 50 min. However, the outcome is most certainly 'yes' if the duration is close to 65 min. and 'no' when the duration exceeds 65 minutes.
 
-&emsp;&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/campaign_months.png?raw=true) &emsp;&emsp;&emsp;&emsp; ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration.png?raw=true)
+&emsp;&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/campaign_months.png?raw=true) &emsp;&emsp; ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration.png?raw=true)
 
 &emsp;&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration_limits.png?raw=true) 
 
