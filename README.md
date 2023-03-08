@@ -38,7 +38,7 @@ The goal of this project is to predict whether a customer will subscribe to a ba
 
 ## Data Exploration
 
-In this phase, I have tried to resolve common data challenges faced such as poor data quality, multicolinearity, and correlation between pair of variables. The key insights obtained during this phase of the project are as follows - 
+In this phase of the project, I have tried to resolve common data challenges faced such as poor data quality, multicolinearity, and correlation between pair of variables. The key insights obtained during this phase of the project are as follows - 
 1.	Higher is the duration of the last call, higher is the probability that the client will subscribe
 2.	Unmarried people are more likely to subscribe than married and divorced.
 3.	Illiterate people are more likely to subscribe than educated folk. Also, as the level of education increases the propensity to subscribe increases as well.
