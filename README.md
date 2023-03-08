@@ -24,14 +24,14 @@ Aim -
 - [Acknowledgments](#acknowledgments)
 
 ## Project Description
-The bank in this case wants to predict whether a customer will subscribe to a term deposit. To make this a successful marketing campaign, the Bank would like to know which customers are highly likely to subscribe its offer. <br/><br/>
+The bank in this case wants to predict whether a customer will subscribe to a term deposit. To make this a successful telemarketing campaign, the Bank would like to know which customers are highly likely to subscribe its offer. <br/><br/>
 The dataset provided by the bank contains details on the number of days since last contact which captures recency aspect and the number of contacts performed during the present and the previous campaign which captures the frequency aspect of the marketing campaign. <br/><br/>
 For modelling purpose, I have used the recency and frequency metrics to train my model because these metrics have very high predictive power. As for the model, I have used a binary classifier which gives an output of either 1 = the customer will subscribe or 0 = the customer will not subscribe. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## About Data Set
 
-* Title: Bank Marketing (with social/economic context)
+* Title: Bank Telemarketing (with social/economic context)
 * Past Usage: The full dataset ([bank-additional-full.csv](https://github.com/clkride/Feature_Importance_ANN/blob/main/Data/bank-additional-full.csv)) was described and analyzed in:
 
   S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems (2014),doi:10.1016/j.dss.2014.03.001.
@@ -60,6 +60,16 @@ Detailed Description can be found @ [Bank_Marketing_Exploratory_Analysis.ipynb](
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Modeling Approach
+
+Steps - 
+1. Feature Engineering and Data Transformation of Categorical and Numerical Attributes
+2. Split the dataset into predictors and response variables. In this case, response is whether customer subscribes or not.
+3. Split the dataset into training set (75%) and test set (25%) 
+4. Create Model 
+5. Fine tune the Hyper-parameters
+6. Test Performance of the Final Model
+7. Report Performance Metrics
+8. Identify most important factors based on socioeconomic characteristics of the customers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
