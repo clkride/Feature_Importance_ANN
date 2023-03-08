@@ -45,13 +45,17 @@ In this phase of the project, I have tried to resolve common data challenges fac
 4.	If the credit default occurs, then the client will not subscribe which is intuitive.
 5.	Surprisingly, students and retired people are more likely to subscribe for a term deposit.
 6.	Telephonic channel for campaign is not as successful as cellular.
-7.	Campaigns are most successful in months of Dec, Mar, Oct, and Sep.
 8.	If the outcome of previous campaign was a success then the propensity of that client to subscribe the term deposit is fairly high.
 9.	Subscription declines steeply when the duration of call ends close to 50 min. However, the outcome is most certainly 'yes' if the duration is close to 65 min. and 'no' when the duration exceeds 65 minutes.
 
-&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/campaign_months.png?raw=true) 
-&emsp;&emsp;&emsp; ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration.png?raw=true)
-&emsp;&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration_limits.png?raw=true) 
+Insight                    |  Visualization
+:-------------------------:|:-------------------------:
+ Plot1: Duration of call v/s Subscription <br/> <br/> Higher is the duration of the last call, higher is the probability that the client will subscribe | ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration.png?raw=true)
+ Plot2: Months v/s Subscription <br/> <br/> Campaigns are most successful in months of - <br/> Dec, Mar, Oct, and Sep. | ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/campaign_months.png?raw=true)
+
+
+&emsp;&emsp;&emsp; ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration.png?raw=true) Plot2: Duration of call v/s Subscription
+&emsp;&emsp;&emsp;![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/duration_limits.png?raw=true) plot3: 
 
 Detailed Description can be found @ [Bank_Marketing_Exploratory_Analysis.ipynb](https://github.com/clkride/Feature_Importance_ANN/blob/main/Bank_Marketing_Exploratory_Analysis.ipynb).
 
