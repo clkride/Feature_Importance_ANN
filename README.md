@@ -10,7 +10,9 @@
 </a>
 
 # Feature_Importance_ANN
-How to find key drivers that influence the output of an Artificial Neural Network?
+Aim - 
+1. To find key drivers that influence the output of an Artificial Neural Network
+2. To determine the relative importance of these influencing factors
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -22,7 +24,9 @@ How to find key drivers that influence the output of an Artificial Neural Networ
 - [Acknowledgments](#acknowledgments)
 
 ## Project Description
-The goal of this project is to predict whether a customer will subscribe to a bank term deposit. In the dataset, the number of days since last contact capture recency aspect and the number of contacts performed during the present and the previous campaign capture the frequency aspect of the marketing campaign. For modelling purpose, I have used the recency and frequency metrics to train my model because these metrics have very high predictive power. As for the model, I have used a binary classifier as my activation function for the output layer of my neural network and a learning rate on 0.1. 
+The bank in this case wants to predict whether a customer will subscribe to a term deposit. To make this a successful marketing campaign, the Bank would like to know which customers are highly likely to subscribe its offer. <br/><br/>
+The dataset provided by the bank contains details on the number of days since last contact which captures recency aspect and the number of contacts performed during the present and the previous campaign which captures the frequency aspect of the marketing campaign. <br/><br/>
+For modelling purpose, I have used the recency and frequency metrics to train my model because these metrics have very high predictive power. As for the model, I have used a binary classifier which gives an output of either 1 = the customer will subscribe or 0 = the customer will not subscribe. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## About Data Set
@@ -49,6 +53,7 @@ Insight           | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visua
  Plot5: Previous Outcome v/s Current Subscription <br/> <br/> If the outcome of previous campaign was a success <br/> then the propensity of that client to subscribe <br/> the term deposit is fairly high. | ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/prev_outcome.png?raw=true)
  Plot6: Education Level v/s Subscription <br/> <br/> Illiterate people are more likely to subscribe than <br/>educated folk. Also, as the level of education <br/>increases the propensity to subscribe increases as well.| ![alt text](https://github.com/clkride/Feature_Importance_ANN/blob/main/edu_vs_subscription.png?raw=true)
 
+From the preliminary data analysis, I concluded that the duration of the last call, outcome of the previous campaign, and month in which the customer was contacted have significant impact on the final outcome. However, there is no way to conclude which one is more or less important relative to each other.
 
 Detailed Description can be found @ [Bank_Marketing_Exploratory_Analysis.ipynb](https://github.com/clkride/Feature_Importance_ANN/blob/main/Bank_Marketing_Exploratory_Analysis.ipynb).
 
